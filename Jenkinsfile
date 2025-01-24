@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Deliver') { 
             steps {
-                bat '"C:\\Program Files\\Git\\bin\\bash.exe" --login -c "C:\Users\Lainey\Documents\GitHub\simple-java-maven-app\jenkins\scripts\deliver.sh"' 
+                bat '"C:/Program Files/Git/bin/bash.exe" --login -c "C:/Users/Lainey/Documents/GitHub/simple-java-maven-app/jenkins/scripts/deliver.sh"' 
             }
         }
     }
